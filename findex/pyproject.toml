@@ -1,7 +1,7 @@
 [project]
 name = "findex"
-version = "0.1.0"
-description = "Lab 01: lazy corpus processing and Unicode tokenization"
+version = "0.2.0"
+description = "Labs 01–02: corpus processing, inverted index and Boolean search"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
