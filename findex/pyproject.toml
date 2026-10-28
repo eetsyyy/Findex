@@ -1,7 +1,7 @@
 [project]
 name = "findex"
-version = "0.2.0"
-description = "Labs 01–02: corpus processing, inverted index and Boolean search"
+version = "0.3.0"
+description = "Labs 01–03: corpus, inverted index, Boolean and ranked search"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []

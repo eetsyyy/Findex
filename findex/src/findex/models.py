@@ -1,6 +1,8 @@
 """Stable import location for pickled index data models."""
 
+from collections.abc import Iterator, Mapping
 from dataclasses import dataclass
+from functools import cached_property
 from typing import Any
 
 
@@ -23,10 +25,41 @@ class PlainPosting:
 
 
 @dataclass
-class Index:
+class Index(Mapping):
     postings: dict[str, Any]
     doc_lengths: dict[int, int]
     doc_meta: dict[int, DocMeta]
     representation: str = "slots"
+    positions: dict[str, dict[int, tuple[int, ...]]] | None = None
+
+    def __len__(self) -> int:
+        return len(self.postings)
+
+    def __iter__(self) -> Iterator[str]:
+        return iter(self.postings)
+
+    def __getitem__(self, term: str):
+        return self.postings[term]
+
+    def __contains__(self, term: object) -> bool:
+        return term in self.postings
+
+    def __repr__(self) -> str:
+        return f"Index(terms={len(self):_}, docs={self.num_docs:_})"
+
+    @property
+    def num_docs(self) -> int:
+        return len(self.doc_lengths)
+
+    @cached_property
+    def avg_doc_length(self) -> float:
+        return sum(self.doc_lengths.values()) / self.num_docs if self.num_docs else 0.0
+
+    def doc_length(self, doc_id: int) -> int:
+        return self.doc_lengths[doc_id]
+
+    def df(self, term: str) -> int:
+        from findex.index import posting_pairs
+        return len(posting_pairs(self, term))
 
 

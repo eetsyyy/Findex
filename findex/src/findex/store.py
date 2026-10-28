@@ -8,6 +8,7 @@ from pathlib import Path
 
 from findex.index import posting_pairs
 from findex.models import DocMeta, Index, PlainPosting, Posting
+from findex.timing import timed
 
 
 def save(index: Index, path: Path, fmt: str = "pickle") -> tuple[float, int]:
@@ -19,6 +20,7 @@ def save(index: Index, path: Path, fmt: str = "pickle") -> tuple[float, int]:
     elif fmt == "json":
         payload = {
             "representation": index.representation,
+            "positions": index.positions,
             "postings": {term: posting_pairs(index, term) for term in index.postings},
             "doc_lengths": index.doc_lengths,
             "doc_meta": {str(k): {"path": v.path, "title": v.title}
@@ -30,6 +32,7 @@ def save(index: Index, path: Path, fmt: str = "pickle") -> tuple[float, int]:
     return time.perf_counter() - start, path.stat().st_size
 
 
+@timed
 def load(path: Path, fmt: str | None = None) -> tuple[Index, float]:
     path = Path(path)
     if fmt is None:
@@ -58,6 +61,9 @@ def load(path: Path, fmt: str | None = None) -> tuple[Index, float]:
             {int(k): v for k, v in payload["doc_lengths"].items()},
             {int(k): DocMeta(**v) for k, v in payload["doc_meta"].items()},
             rep,
+            {term: {int(k): tuple(v) for k, v in docs.items()}
+             for term, docs in (payload.get("positions") or {}).items()}
+            if payload.get("positions") is not None else None,
         )
     else:
         raise ValueError(fmt)
