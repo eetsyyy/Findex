@@ -16,13 +16,13 @@ CASES = [
 ]
 
 
-def evaluate(corpus: Path):
+def evaluate(corpus: Path) -> None:
     index = build_index(corpus, with_positions=True)
     searcher = RankedSearcher(index)
     print("ЗАПИТ | TF-IDF P@5 | BM25 P@5 | позначка релевантності")
     total = [0.0, 0.0]
     for query, group in CASES:
-        row = []
+        row: list[float] = []
         for scorer in (TfIdf(), BM25()):
             results = searcher.search(query, scorer, k=5)
             # Article numbers were generated in 8-topic cycles; this is the
@@ -48,7 +48,7 @@ def evaluate(corpus: Path):
     print(f"Короткий {short:.6f} > довгий {long:.6f}: {short > long}")
 
 
-def main():
+def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("corpus", type=Path)
     args = ap.parse_args()

@@ -7,18 +7,19 @@ import time
 from pathlib import Path
 
 from findex.index import measured_build
+from findex.models import Index
 from findex.search import evaluate
 from findex.store import load, save
 
 
-def benchmark(root: Path, runs: int = 1000):
+def benchmark(root: Path, runs: int = 1000) -> None:
     print("ПРЕДСТАВЛЕННЯ | ДОКУМЕНТІВ | ПІК MiB | PICKLE БАЙТ | LOAD c | JSON БАЙТ | LOAD c")
-    indexes = {}
+    indexes: dict[str, Index] = {}
     for kind in ("plain", "slots", "array"):
         index, sec, mib = measured_build(root, kind)
         indexes[kind] = index
         with tempfile.TemporaryDirectory() as tmp:
-            row = []
+            row: list[tuple[int, float, float]] = []
             for fmt, ext in (("pickle", ".bin"), ("json", ".json")):
                 name = Path(tmp) / ("index" + ext)
                 saved, size = save(index, name, fmt)
@@ -36,7 +37,8 @@ def benchmark(root: Path, runs: int = 1000):
     for label, terms in (("часті", common), ("рідкі", rare)):
         query = " ".join(terms)
         for engine in ("merge", "set"):
-            times = []
+            times: list[float] = []
+            result: list[int] = []
             for _ in range(runs):
                 start = time.perf_counter()
                 result = evaluate(index, query, engine)
@@ -45,7 +47,7 @@ def benchmark(root: Path, runs: int = 1000):
     print("\nПРИМІТКА: два найчастіші/найрідкісніші терміни визначені за document frequency.")
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("corpus", type=Path)
     parser.add_argument("--runs", type=int, default=1000)

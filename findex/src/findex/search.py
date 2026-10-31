@@ -4,6 +4,7 @@ import argparse
 import time
 import tracemalloc
 from pathlib import Path
+from typing import Literal
 
 from findex.index import Index, posting_pairs
 from findex.store import load
@@ -12,7 +13,7 @@ from findex.tokenize import tokenize
 
 def merge_and(a: list[int], b: list[int]) -> list[int]:
     i = j = 0
-    out = []
+    out: list[int] = []
     while i < len(a) and j < len(b):
         if a[i] == b[j]:
             out.append(a[i]); i += 1; j += 1
@@ -25,7 +26,7 @@ def merge_and(a: list[int], b: list[int]) -> list[int]:
 
 def merge_or(a: list[int], b: list[int]) -> list[int]:
     i = j = 0
-    out = []
+    out: list[int] = []
     while i < len(a) or j < len(b):
         if j >= len(b) or (i < len(a) and a[i] < b[j]):
             out.append(a[i]); i += 1
@@ -39,7 +40,7 @@ def merge_or(a: list[int], b: list[int]) -> list[int]:
 def merge_not(a: list[int], b: list[int]) -> list[int]:
     """Sorted difference: a minus b."""
     i = j = 0
-    out = []
+    out: list[int] = []
     while i < len(a):
         if j >= len(b) or a[i] < b[j]:
             out.append(a[i]); i += 1
@@ -50,12 +51,12 @@ def merge_not(a: list[int], b: list[int]) -> list[int]:
     return out
 
 
-def evaluate(index: Index, query: str, engine: str = "merge") -> list[int]:
+def evaluate(index: Index, query: str, engine: Literal["merge", "set"] = "merge") -> list[int]:
     """Left-to-right Boolean evaluator; adjacent terms imply AND; NOT is unary."""
     if engine not in {"merge", "set"}:
         raise ValueError(engine)
     raw = query.split()
-    parts = []
+    parts: list[str] = []
     for word in raw:
         if word.upper() in {"AND", "OR", "NOT"}:
             parts.append(word.upper())
@@ -65,13 +66,13 @@ def evaluate(index: Index, query: str, engine: str = "merge") -> list[int]:
         return []
     universe = sorted(index.doc_meta)
 
-    def combine(a, b, op):
+    def combine(a: list[int], b: list[int], op: Literal["AND", "OR"]) -> list[int]:
         if engine == "set":
             sa, sb = set(a), set(b)
             return sorted((sa | sb) if op == "OR" else (sa & sb))
         return merge_or(a, b) if op == "OR" else merge_and(a, b)
 
-    def operand(at):
+    def operand(at: int) -> tuple[list[int], int]:
         negate = False
         while at < len(parts) and parts[at] == "NOT":
             negate = not negate
@@ -86,16 +87,16 @@ def evaluate(index: Index, query: str, engine: str = "merge") -> list[int]:
 
     result, pos = operand(0)
     while pos < len(parts):
-        op = "AND"
+        op: Literal["AND", "OR"] = "AND"
         if parts[pos] in {"AND", "OR"}:
-            op = parts[pos]
+            op = "OR" if parts[pos] == "OR" else "AND"
             pos += 1
         rhs, pos = operand(pos)
         result = combine(result, rhs, op)
     return result
 
 
-def main():
+def main() -> None:
     p = argparse.ArgumentParser(description="Search a saved index")
     p.add_argument("index", type=Path)
     p.add_argument("query")

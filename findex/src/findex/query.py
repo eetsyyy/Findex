@@ -6,22 +6,29 @@ from dataclasses import dataclass
 from typing import Protocol
 
 from findex.index import posting_pairs
+from findex.models import Index
 from findex.tokenize import tokenize
 
 
 class Query(Protocol):
-    def evaluate(self, index) -> set[int]: ...
+    def evaluate(self, index: Index) -> set[int]: ...
     def terms(self) -> tuple[str, ...]: ...
 
 
 class Operators:
-    def __and__(self, other):
+    def evaluate(self, index: Index) -> set[int]:
+        raise NotImplementedError
+
+    def terms(self) -> tuple[str, ...]:
+        raise NotImplementedError
+
+    def __and__(self, other: Query) -> And:
         return And(self, other)
 
-    def __or__(self, other):
+    def __or__(self, other: Query) -> Or:
         return Or(self, other)
 
-    def __invert__(self):
+    def __invert__(self) -> Not:
         return Not(self)
 
 
@@ -29,7 +36,7 @@ class Operators:
 class Term(Operators):
     value: str
 
-    def evaluate(self, index) -> set[int]:
+    def evaluate(self, index: Index) -> set[int]:
         return {d for d, _ in posting_pairs(index, self.value)}
 
     def terms(self) -> tuple[str, ...]:
@@ -40,16 +47,16 @@ class Term(Operators):
 class Phrase(Operators):
     words: tuple[str, ...]
 
-    def evaluate(self, index) -> set[int]:
+    def evaluate(self, index: Index) -> set[int]:
         if not self.words:
             return set()
-        positions = getattr(index, "positions", None)
+        positions = index.positions
         if positions is None:
             raise ValueError("Phrase search requires an index built with --positions")
         docs = set(positions.get(self.words[0], {}))
         for word in self.words[1:]:
             docs &= set(positions.get(word, {}))
-        result = set()
+        result: set[int] = set()
         for doc_id in docs:
             starts = set(positions[self.words[0]][doc_id])
             for offset, word in enumerate(self.words[1:], 1):
@@ -67,7 +74,7 @@ class And(Operators):
     left: Query
     right: Query
 
-    def evaluate(self, index) -> set[int]:
+    def evaluate(self, index: Index) -> set[int]:
         return self.left.evaluate(index) & self.right.evaluate(index)
 
     def terms(self) -> tuple[str, ...]:
@@ -79,7 +86,7 @@ class Or(Operators):
     left: Query
     right: Query
 
-    def evaluate(self, index) -> set[int]:
+    def evaluate(self, index: Index) -> set[int]:
         return self.left.evaluate(index) | self.right.evaluate(index)
 
     def terms(self) -> tuple[str, ...]:
@@ -90,7 +97,7 @@ class Or(Operators):
 class Not(Operators):
     node: Query
 
-    def evaluate(self, index) -> set[int]:
+    def evaluate(self, index: Index) -> set[int]:
         return set(index.doc_meta) - self.node.evaluate(index)
 
     def terms(self) -> tuple[str, ...]:
@@ -103,7 +110,7 @@ LEX = re.compile(r'"[^"\n]*"|\(|\)|[^\s()"]+')
 def parse(query: str) -> Query:
     """NOT > AND (explicit or implicit) > OR. Adjacent terms mean AND."""
     raw = LEX.findall(query)
-    tokens = []
+    tokens: list[str | Query] = []
     for item in raw:
         if item.startswith('"'):
             tokens.append(Phrase(tuple(tokenize(item[1:-1]))))
@@ -115,7 +122,7 @@ def parse(query: str) -> Query:
         raise ValueError("Empty query")
     pos = 0
 
-    def atom():
+    def atom() -> Query:
         nonlocal pos
         if pos >= len(tokens):
             raise ValueError("Missing operand")
@@ -131,9 +138,11 @@ def parse(query: str) -> Query:
             return Not(atom())
         if tok in ('AND', 'OR', ')'):
             raise ValueError(f"Unexpected token: {tok}")
+        if isinstance(tok, str):
+            raise TypeError(f"Unexpected token: {tok}")
         return tok
 
-    def and_expr():
+    def and_expr() -> Query:
         nonlocal pos
         node = atom()
         while pos < len(tokens) and tokens[pos] not in ('OR', ')'):
@@ -142,7 +151,7 @@ def parse(query: str) -> Query:
             node = And(node, atom())
         return node
 
-    def or_expr():
+    def or_expr() -> Query:
         nonlocal pos
         node = and_expr()
         while pos < len(tokens) and tokens[pos] == 'OR':

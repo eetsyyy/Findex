@@ -5,6 +5,7 @@ import pickle
 import time
 from array import array
 from pathlib import Path
+from typing import Any, cast
 
 from findex.index import posting_pairs
 from findex.models import DocMeta, Index, PlainPosting, Posting
@@ -45,10 +46,10 @@ def load(path: Path, fmt: str | None = None) -> tuple[Index, float]:
         if not isinstance(result, Index):
             raise ValueError("Not a findex index")
     elif fmt == "json":
-        payload = json.loads(path.read_text(encoding="utf-8"))
+        payload = cast(dict[str, Any], json.loads(path.read_text(encoding="utf-8")))
         rep = payload["representation"]
-        postings = {}
-        for term, pairs in payload["postings"].items():
+        postings: dict[str, list[Posting] | list[PlainPosting] | tuple[array[int], array[int]]] = {}
+        for term, pairs in cast(dict[str, list[tuple[int, int]]], payload["postings"]).items():
             if rep == "array":
                 postings[term] = (array("I", (p[0] for p in pairs)),
                                   array("I", (p[1] for p in pairs)))
@@ -58,11 +59,11 @@ def load(path: Path, fmt: str | None = None) -> tuple[Index, float]:
                 postings[term] = [Posting(*p) for p in pairs]
         result = Index(
             postings,
-            {int(k): v for k, v in payload["doc_lengths"].items()},
-            {int(k): DocMeta(**v) for k, v in payload["doc_meta"].items()},
+            {int(k): int(v) for k, v in cast(dict[str, int], payload["doc_lengths"]).items()},
+            {int(k): DocMeta(**v) for k, v in cast(dict[str, dict[str, str]], payload["doc_meta"]).items()},
             rep,
             {term: {int(k): tuple(v) for k, v in docs.items()}
-             for term, docs in (payload.get("positions") or {}).items()}
+             for term, docs in cast(dict[str, dict[str, list[int]]], payload["positions"]).items()}
             if payload.get("positions") is not None else None,
         )
     else:

@@ -1,0 +1,26 @@
+name: Python CI
+on:
+  push:
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: findex
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Set up Python 3.13
+        run: uv python install 3.13
+      - name: Install locked dependencies
+        run: uv sync --group dev --locked
+      - name: Ruff
+        run: uv run ruff check .
+      - name: Pyright strict
+        run: uv run pyright
+      - name: Pytest
+        run: uv run pytest -q

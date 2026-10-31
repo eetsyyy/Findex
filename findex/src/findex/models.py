@@ -1,9 +1,9 @@
 """Stable import location for pickled index data models."""
 
+from array import array
 from collections.abc import Iterator, Mapping
 from dataclasses import dataclass
 from functools import cached_property
-from typing import Any
 
 
 @dataclass(frozen=True, slots=True)
@@ -25,8 +25,8 @@ class PlainPosting:
 
 
 @dataclass
-class Index(Mapping):
-    postings: dict[str, Any]
+class Index(Mapping[str, list[Posting] | list[PlainPosting] | tuple[array[int], array[int]]]):
+    postings: dict[str, list[Posting] | list[PlainPosting] | tuple[array[int], array[int]]]
     doc_lengths: dict[int, int]
     doc_meta: dict[int, DocMeta]
     representation: str = "slots"
@@ -38,7 +38,7 @@ class Index(Mapping):
     def __iter__(self) -> Iterator[str]:
         return iter(self.postings)
 
-    def __getitem__(self, term: str):
+    def __getitem__(self, term: str) -> list[Posting] | list[PlainPosting] | tuple[array[int], array[int]]:
         return self.postings[term]
 
     def __contains__(self, term: object) -> bool:

@@ -6,59 +6,75 @@ import tracemalloc
 from array import array
 from collections import Counter, defaultdict
 from pathlib import Path
+from typing import Literal
 
 from findex.corpus import iter_documents
 from findex.models import DocMeta, Index, PlainPosting, Posting
 from findex.timing import timed
 from findex.tokenize import tokenize
 
+Representation = Literal["plain", "slots", "array"]
+
 
 def posting_pairs(index: Index, term: str) -> list[tuple[int, int]]:
     """Return pairs independently of representation, ordered by document id."""
-    postings = index.postings.get(term, ())
-    if index.representation == "array":
-        return list(zip(postings[0], postings[1])) if postings else []
+    postings = index.postings.get(term)
+    if postings is None:
+        return []
+    if isinstance(postings, tuple):
+        return list(zip(postings[0], postings[1]))
     return [(p.doc_id, p.tf) for p in postings]
 
 
 @timed
-def build_index(root: Path, representation: str = "slots", with_positions: bool = False) -> Index:
+def build_index(root: Path, representation: Representation = "slots", with_positions: bool = False) -> Index:
     """Read each document once, only retaining its Counter and final postings."""
     if representation not in {"plain", "slots", "array"}:
         raise ValueError(f"Unknown representation: {representation}")
-    postings = defaultdict(list) if representation != "array" else defaultdict(
+    plain: defaultdict[str, list[PlainPosting]] = defaultdict(list)
+    slots: defaultdict[str, list[Posting]] = defaultdict(list)
+    compact: defaultdict[str, tuple[array[int], array[int]]] = defaultdict(
         lambda: (array("I"), array("I"))
     )
-    doc_lengths = {}
-    doc_meta = {}
-    positions = defaultdict(dict) if with_positions else None
+    doc_lengths: dict[int, int] = {}
+    doc_meta: dict[int, DocMeta] = {}
+    positions: defaultdict[str, dict[int, tuple[int, ...]]] | None = (
+        defaultdict(dict) if with_positions else None
+    )
     for doc_id, doc in enumerate(iter_documents(Path(root))):
         if with_positions:
             tokens = list(tokenize(doc.text))
-            counts = Counter(tokens)
-            per_term = defaultdict(list)
+            counts: Counter[str] = Counter(tokens)
+            per_term: defaultdict[str, list[int]] = defaultdict(list)
             for offset, term in enumerate(tokens):
                 per_term[term].append(offset)
-            for term, offsets in per_term.items():
-                positions[term][doc_id] = tuple(offsets)
+            if positions is not None:
+                for term, offsets in per_term.items():
+                    positions[term][doc_id] = tuple(offsets)
         else:
             counts = Counter(tokenize(doc.text))
         doc_lengths[doc_id] = counts.total()
         doc_meta[doc_id] = DocMeta(path=doc.doc_id, title=doc.path.stem)
         for term, tf in counts.items():
             if representation == "plain":
-                postings[term].append(PlainPosting(doc_id, tf))
+                plain[term].append(PlainPosting(doc_id, tf))
             elif representation == "slots":
-                postings[term].append(Posting(doc_id, tf))
+                slots[term].append(Posting(doc_id, tf))
             else:
-                ids, frequencies = postings[term]
+                ids, frequencies = compact[term]
                 ids.append(doc_id)
                 frequencies.append(tf)
-    final = dict(postings)
-    return Index(final, doc_lengths, doc_meta, representation, dict(positions) if positions is not None else None)
+    if representation == "plain":
+        final: dict[str, list[Posting] | list[PlainPosting] | tuple[array[int], array[int]]] = dict(plain)
+    elif representation == "slots":
+        final = dict(slots)
+    else:
+        final = dict(compact)
+    return Index(final, doc_lengths, doc_meta, representation,
+                 dict(positions) if positions is not None else None)
 
 
-def measured_build(root: Path, representation: str):
+def measured_build(root: Path, representation: Representation) -> tuple[Index, float, float]:
     tracemalloc.start()
     start = time.perf_counter()
     index = build_index(root, representation)
@@ -68,7 +84,7 @@ def measured_build(root: Path, representation: str):
     return index, duration, peak / 1048576
 
 
-def main():
+def main() -> None:
     parser = argparse.ArgumentParser(description="Build and save an inverted index")
     parser.add_argument("corpus", type=Path)
     parser.add_argument("--out", type=Path, default=Path("index.bin"))

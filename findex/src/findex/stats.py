@@ -4,6 +4,7 @@ import argparse
 import time
 import tracemalloc
 from collections import Counter
+from collections.abc import Callable
 from dataclasses import dataclass
 from itertools import islice
 from pathlib import Path
@@ -50,7 +51,7 @@ def eager_stats(root: Path, limit: int | None = None) -> Result:
     return Result(len(documents), token_count, counts)
 
 
-def measure(function, root: Path, limit: int | None) -> tuple[Result, float, float]:
+def measure(function: Callable[[Path, int | None], Result], root: Path, limit: int | None) -> tuple[Result, float, float]:
     tracemalloc.start()
     start = time.perf_counter()
     try:
@@ -82,9 +83,9 @@ def main() -> None:
     args = parser.parse_args()
     if args.limit is not None and args.limit < 0:
         parser.error("--limit must be >= 0")
-    modes = {"lazy": lazy_stats, "eager": eager_stats}
+    modes: dict[str, Callable[[Path, int | None], Result]] = {"lazy": lazy_stats, "eager": eager_stats}
     selected = modes.items() if args.mode == "compare" else [(args.mode, modes[args.mode])]
-    results = {}
+    results: dict[str, Result] = {}
     for name, func in selected:
         result, elapsed, peak_mb = measure(func, args.root, args.limit)
         results[name] = result
