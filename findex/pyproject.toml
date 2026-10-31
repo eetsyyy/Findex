@@ -1,7 +1,7 @@
 [project]
 name = "findex"
-version = "0.4.0"
-description = "Findex: typed and tested text search CLI (Python course labs 01–04)"
+version = "0.5.0"
+description = "Findex: typed and tested text search CLI (Python course labs 01–05)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = ["typer>=0.12", "rich>=13"]
@@ -10,7 +10,7 @@ dependencies = ["typer>=0.12", "rich>=13"]
 findex = "findex.cli:main"
 
 [dependency-groups]
-dev = ["pytest>=8", "ruff>=0.8", "pyright>=1.1.400", "hypothesis>=6", "pytest-cov>=5", "build>=1"]
+dev = ["pytest>=8", "ruff>=0.8", "pyright>=1.1.400", "hypothesis>=6", "pytest-cov>=5", "build>=1", "matplotlib>=3.8", "psutil>=5.9"]
 
 [build-system]
 requires = ["hatchling>=1.25"]
@@ -24,6 +24,7 @@ testpaths = ["tests"]
 markers = ["slow: tests taking more than one second"]
 
 [tool.ruff]
+extend-exclude = [".venv-nogil"]
 line-length = 100
 src = ["src", "tests", "scripts"]
 

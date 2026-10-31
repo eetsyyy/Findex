@@ -4,7 +4,6 @@ from __future__ import annotations
 import json
 import logging
 import sys
-import time
 from pathlib import Path
 from typing import Annotated, Literal, NoReturn
 
@@ -13,8 +12,8 @@ from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 from rich.table import Table
 
-from findex.index import build_index
 from findex.models import Index
+from findex.parallel import build_parallel
 from findex.ranking import BM25, RankedSearcher, SearchResult, TfIdf
 from findex.store import load, save
 
@@ -42,22 +41,24 @@ def build(
     out: Annotated[Path, typer.Option("--out", help="Файл індексу")] = Path("index.bin"),
     positions: Annotated[bool, typer.Option("--positions", help="Зберігати позиції для точних фраз")] = True,
     fmt: Annotated[Literal["pickle", "json"], typer.Option("--format")] = "pickle",
+    workers: Annotated[int, typer.Option("--workers", min=1)] = 1,
+    executor: Annotated[Literal["serial", "threads", "processes"], typer.Option("--executor")] = "serial",
 ) -> None:
     if not corpus.is_dir():
         _fail(f"Папка корпусу не існує: {corpus}")
-    started = time.perf_counter()
     idx: Index
     duration: float
     size: int
     try:
         with Progress(SpinnerColumn(), TextColumn("{task.description}"), console=err_console, transient=True) as progress:
             progress.add_task("Побудова індексу...", total=None)
-            idx = build_index(corpus, with_positions=positions)
+            idx, metrics = build_parallel(corpus, workers=workers, executor=executor, with_positions=positions)
             duration, size = save(idx, out, fmt)
     except (OSError, ValueError, TypeError) as exc:
-        _fail(str(exc))
+        # Do not swallow worker traceback; process failures must be diagnosable.
+        raise RuntimeError("Індексація не вдалася") from exc
     console.print(f"Індекс збережено: {out} | документів: {idx.num_docs} | термінів: {len(idx)}")
-    log.info("build %.3f s; save %.3f s; bytes %s", time.perf_counter()-started, duration, size)
+    log.info("build %.3f s; merge %.3f s; save %.3f s; bytes %s", metrics.wall_seconds, metrics.merge_seconds, duration, size)
 
 
 @app.command("search")
