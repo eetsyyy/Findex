@@ -16,6 +16,7 @@ from rich.table import Table
 
 from findex.crawler.runner import run_crawl
 from findex.models import Index
+from findex.numpy_ranking import cached_numpy_searcher
 from findex.parallel import build_parallel
 from findex.ranking import BM25, RankedSearcher, SearchResult, TfIdf
 from findex.store import load, save
@@ -98,6 +99,7 @@ def search(
     query: Annotated[str, typer.Argument(help="Пошуковий запит")],
     corpus: Annotated[Path, typer.Option("--corpus", help="Папка з текстами для сніпетів")] = Path("data"),
     scorer: Annotated[Literal["bm25", "tfidf"], typer.Option("--scorer")] = "bm25",
+    engine: Annotated[Literal["legacy", "numpy"], typer.Option("--engine")] = "numpy",
     top: Annotated[int, typer.Option("--top", min=0)] = 5,
     as_json: Annotated[bool, typer.Option("--json", help="JSON лише в stdout")] = False,
 ) -> None:
@@ -106,7 +108,11 @@ def search(
     matches: list[SearchResult]
     try:
         idx, _ = load(path)
-        matches = RankedSearcher(idx).search(query, BM25() if scorer == "bm25" else TfIdf(), top, corpus)
+        matches = (
+            cached_numpy_searcher(idx).search(query, scorer=scorer, k=top, corpus=corpus)
+            if engine == "numpy"
+            else RankedSearcher(idx).search(query, BM25() if scorer == "bm25" else TfIdf(), top, corpus)
+        )
     except (ValueError, OSError, KeyError, EOFError, TypeError) as exc:
         _fail(f"Помилка пошуку: {exc}")
     results = [{"doc_id": r.doc_id, "title": r.title, "score": r.score, "path": r.path, "snippet": r.snippet} for r in matches]

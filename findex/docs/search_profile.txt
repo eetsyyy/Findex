@@ -1,0 +1,38 @@
+         3230 function calls (3228 primitive calls) in 0.002 seconds
+
+   Ordered by: cumulative time
+   List reduced from 53 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.002    0.002 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15(wrapper)
+        1    0.000    0.000    0.002    0.002 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\ranking.py:87(search)
+        2    0.000    0.000    0.001    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:110(parse)
+        6    0.000    0.000    0.001    0.000 {method 'extend' of 'list' objects}
+       12    0.000    0.000    0.001    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:120(<genexpr>)
+       12    0.001    0.000    0.001    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21(tokenize)
+        1    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\ranking.py:83(matching_ids)
+      600    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\ranking.py:41(__call__)
+        1    0.000    0.000    0.000    0.000 c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\heapq.py:523(nlargest)
+      2/1    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:89(evaluate)
+        3    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:39(evaluate)
+      201    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\ranking.py:112(<genexpr>)
+      602    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\models.py:50(num_docs)
+      200    0.000    0.000    0.000    0.000 <string>:2(__init__)
+      600    0.000    0.000    0.000    0.000 {built-in method math.log}
+        6    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:19(posting_pairs)
+        2    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:154(or_expr)
+      626    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        6    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:145(and_expr)
+        6    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\query.py:125(atom)
+      200    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\ranking.py:117(<lambda>)
+        2    0.000    0.000    0.000    0.000 {method 'cache_info' of 'functools._lru_cache_wrapper' objects}
+        2    0.000    0.000    0.000    0.000 c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py:1512(info)
+        1    0.000    0.000    0.000    0.000 c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\functools.py:1010(__get__)
+        2    0.000    0.000    0.000    0.000 c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py:1772(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py:1826(_is_disabled)
+        1    0.000    0.000    0.000    0.000 C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\models.py:54(avg_doc_length)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+
+

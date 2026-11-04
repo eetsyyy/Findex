@@ -1,0 +1,7 @@
+corpus,docs,query_type,query,matches,legacy_ms,numpy_ms,speedup,build_index_s,numpy_conversion_s
+original,200,common,249,200,0.4939,0.0898,5.5,0.0998,0.01213
+original,200,rare,uniqueword0,1,0.0111,0.0395,0.281,0.0998,0.01213
+original,200,three_terms,247 OR 248 OR 249,200,0.5068,0.1772,2.86,0.0998,0.01213
+x10,2000,common,249,2000,2.6426,0.3007,8.7882,1.1811,0.1123
+x10,2000,rare,uniqueword0,10,0.0278,0.0542,0.5129,1.1811,0.1123
+x10,2000,three_terms,247 OR 248 OR 249,2000,7.1581,1.6682,4.2909,1.1811,0.1123

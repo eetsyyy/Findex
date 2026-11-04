@@ -1,0 +1,45 @@
+﻿name: Findex CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: findex
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: uv sync --group dev --frozen
+
+      - name: Ruff
+        run: uv run ruff check .
+
+      - name: Pyright
+        run: uv run pyright
+
+      - name: Unit tests
+        run: uv run pytest -q --benchmark-disable
+
+      - name: Performance benchmarks
+        run: uv run pytest -q --benchmark-only --benchmark-json=benchmark-results.json
+
+      - name: Upload benchmark results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: findex/benchmark-results.json
+          if-no-files-found: warn

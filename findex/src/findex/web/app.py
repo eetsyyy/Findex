@@ -18,6 +18,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 from starlette.responses import Response
 
 from findex.models import Index
+from findex.numpy_ranking import cached_numpy_searcher
 from findex.ranking import BM25, RankedSearcher, TfIdf
 from findex.ranking import SearchResult as RankedHit
 from findex.store import load
@@ -49,6 +50,7 @@ class SearchResponse(BaseModel):
     k: int
     page: int
     scorer: Literal["bm25", "tfidf"]
+    engine: Literal["legacy", "numpy"] = "numpy"
     total: int
     pages: int
     results: list[ResultModel]
@@ -96,18 +98,22 @@ def _calculate(
     scorer: Literal["bm25", "tfidf"],
     page: int,
     corpus: Path | None,
+    engine: Literal["legacy", "numpy"] = "numpy",
 ) -> SearchResponse:
     searcher = RankedSearcher(index)
     try:
         total = len(searcher.matching_ids(q))
         limit = min(total, k * page)
         score_fn = BM25() if scorer == "bm25" else TfIdf()
-        found: list[RankedHit] = searcher.search(q, scorer=score_fn, k=limit, corpus=corpus)
+        found: list[RankedHit] = (
+            cached_numpy_searcher(index).search(q, scorer=scorer, k=limit, corpus=corpus)
+            if engine == "numpy" else searcher.search(q, scorer=score_fn, k=limit, corpus=corpus)
+        )
     except (ValueError, TypeError) as exc:
         raise HTTPException(status_code=400, detail="Invalid search syntax") from exc
     results = [ResultModel(doc_id=h.doc_id, title=h.title, path=h.path,
                            score=h.score, snippet=h.snippet) for h in found[(page - 1) * k:]]
-    return SearchResponse(q=q, k=k, page=page, scorer=scorer, total=total,
+    return SearchResponse(q=q, k=k, page=page, scorer=scorer, engine=engine, total=total,
                           pages=(total + k - 1) // k, results=results)
 
 
@@ -138,7 +144,7 @@ async def lifespan(application: FastAPI):
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
-    application = FastAPI(title="Findex Search", version="0.7.0", lifespan=lifespan)
+    application = FastAPI(title="Findex Search", version="1.0.0", lifespan=lifespan)
     application.state.settings = settings or Settings()
     application.state.index = None
     application.state.corpus_path = application.state.settings.corpus_path
@@ -174,10 +180,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         corpus: Annotated[Path | None, Depends(get_corpus)],
         k: Annotated[int, Query(ge=1, le=100)] = 10,
         scorer: Literal["bm25", "tfidf"] = "bm25",
+        engine: Literal["legacy", "numpy"] = "numpy",
         page: Annotated[int, Query(ge=1, le=100)] = 1,
     ) -> SearchResponse:
         # Plain def routes run in FastAPI's thread pool: CPU scoring never blocks the event loop.
-        return _calculate(index, q, k, scorer, page, corpus)
+        return _calculate(index, q, k, scorer, page, corpus, engine)
 
     @application.get("/search-async", response_model=SearchResponse, include_in_schema=False)
     async def search_async_benchmark(
@@ -186,10 +193,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         corpus: Annotated[Path | None, Depends(get_corpus)],
         k: Annotated[int, Query(ge=1, le=100)] = 10,
         scorer: Literal["bm25", "tfidf"] = "bm25",
+        engine: Literal["legacy", "numpy"] = "numpy",
         page: Annotated[int, Query(ge=1, le=100)] = 1,
     ) -> SearchResponse:
         # Intentionally synchronous CPU code in async route, exclusively for benchmark comparison.
-        return _calculate(index, q, k, scorer, page, corpus)
+        return _calculate(index, q, k, scorer, page, corpus, engine)
 
     @application.get("/docs/{doc_id}", response_model=DocumentResponse)
     def document(doc_id: int, index: Annotated[Index, Depends(get_index)],
@@ -201,7 +209,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
                                 text=_read_text(index, doc_id, corpus))
 
     @application.get("/", response_class=HTMLResponse)
-    def home(request: Request, q: str = "", k: int = 10, page: int = 1):
+    def home(request: Request, q: str = "", k: int = 10, page: int = 1, engine: Literal["legacy", "numpy"] = "numpy"):
         index: Index | None = getattr(request.app.state, "index", None)
         data: SearchResponse | None = None
         error: str | None = None
@@ -211,11 +219,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
             try:
                 if not 1 <= k <= 100 or not 1 <= page <= 100 or len(q) > 200:
                     raise ValueError("Invalid search parameters")
-                data = _calculate(index, q, k, "bm25", page, get_corpus(request))
+                data = _calculate(index, q, k, "bm25", page, get_corpus(request), engine)
             except (HTTPException, ValueError):
                 error = "Некоректний пошуковий запит."
         return TEMPLATES.TemplateResponse(request=request, name="index.html",
-                                          context={"q": q, "data": data, "error": error,
+                                          context={"q": q, "engine": engine, "data": data, "error": error,
                                                    "highlight": _highlight})
 
     @application.get("/document/{doc_id}", response_class=HTMLResponse)

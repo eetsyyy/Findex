@@ -1,0 +1,1843 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="648"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<svg class="func_g" x="0.0" y="288" width="1296.857283573975" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 108.15% (1 1 8.3e-06 0.29481250000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="264" width="1296.820744365313" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 108.15% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="240" width="1296.630124156269" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 108.14% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="0.7884544905256695" y="216" width="311.4406100286921" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 26.04% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="1.961671250576428" y="192" width="35.10426000948699" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:476:is_file 3.01% (201 201 0.0002807 0.0082012)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="1.961671250576428" y="168" width="32.812415186663635" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:510:stat 2.82% (201 201 0.00023620000000000002 0.0076806)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="1.961671250576428" y="144" width="31.77258854980063" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 2.73% (201 201 0.007215082647833822 0.0074444)</title>
+    <rect height="100%" width="100%" fill="rgb(57, 242, 168)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="192" width="73.20540978392341" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 6.18% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="168" width="31.468828863333457" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 2.71% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="144" width="22.032468168516193" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 1.92% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="120" width="20.410215350209608" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 1.78% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="96" width="13.309722621181956" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 1.19% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="38.065931260063415" y="72" width="2.233531133008204" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:237:_format_parsed_parts 0.27% (276 276 0.0003468620983531038 0.0007345071058389958)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="41.29946239307162" y="72" width="8.977814071165632" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.83% (276 276 0.00012953757917770356 0.0022664928941610045)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="41.29946239307162" y="48" width="8.407548934401339" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.78% (352 352 0.0003675358889951778 0.002136955314983301)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="41.29946239307162" y="24" width="5.30345513861137" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.53% (348 348 0.0007102305968850583 0.0014318503209647731)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="41.29946239307162" y="0" width="2.176796828043248" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:117:__init__ 0.26% (276 276 0.00047862532719572927 0.0007216197240797149)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="47.60291753168299" y="24" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:505:__new__ 0.12% (348 348 0.00022876536197591988 0.00033756910502335006)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__new__</text>
+</g></svg>
+<svg class="func_g" x="52.65960315337773" y="96" width="1.893641187172097" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.24% (400 400 0.0003126 0.0006573000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="52.65960315337773" y="72" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:41:__len__ 0.13% (398 398 0.00030039280762565 0.000343206499133449)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__len__</text>
+</g></svg>
+<svg class="func_g" x="61.09839942857961" y="144" width="4.0586993582526345" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:193:__eq__ 0.42% (200 200 0.000413 0.0011491000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="61.09839942857961" y="120" width="2.01841716206352" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:174:_str_normcase 0.25% (689 689 0.0006038448122587439 0.0006856432682185052)</title>
+    <rect height="100%" width="100%" fill="rgb(57, 242, 168)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_str_normcase</text>
+</g></svg>
+<svg class="func_g" x="70.53476012339686" y="168" width="1.3997015230906893" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:193:__eq__ 0.20% (200 200 0.0004263 0.0005451000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="72.93446164648756" y="168" width="5.575736864869863" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.55% (200 200 0.0001532 0.0014937000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="72.93446164648756" y="144" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:237:_format_parsed_parts 0.12% (124 124 0.00015493790164689623 0.0003280928941610043)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="74.37882968507387" y="144" width="3.4569342760404966" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.37% (124 124 5.786242082229644e-05 0.0010124071058389959)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="74.37882968507387" y="120" width="3.2022057136171265" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.35% (157 157 0.00016417256221194134 0.0009545446850166995)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="74.37882968507387" y="96" width="1.8156553193297378" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.23% (155 155 0.000317248955389677 0.0006395852566655377)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="74.37882968507387" y="72" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:117:__init__ 0.12% (123 123 0.0002137944855401117 0.0003223363012758607)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="79.66868182603596" y="168" width="22.028065854219562" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 1.92% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="79.66868182603596" y="144" width="20.23896532407087" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 1.77% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="79.66868182603596" y="120" width="17.26168016526288" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:289:drive 1.52% (400 400 0.0017792 0.0041482)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="79.66868182603596" y="96" width="7.809849520461073" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:257:_parse_path 0.73% (197 197 0.0011451681310068887 0.0020011859505836742)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="81.67164385383354" y="72" width="1" height="23"><g>
+    <title>~:0:&lt;method 'split' of 'str' objects&gt; 0.13% (197 197 0.00034582729035185437 0.00034582729035185437)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="88.47853134649702" y="96" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:277:_raw_path 0.13% (197 197 0.00028993206286350706 0.00036781404941632644)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_raw_path</text>
+</g></svg>
+<svg class="func_g" x="112.3056790955005" y="192" width="75.7499474473731" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:529:open 6.40% (200 200 0.0003868 0.017434)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="112.3056790955005" y="168" width="73.79796128824924" height="23"><g>
+    <title>~:0:&lt;built-in method _io.open&gt; 6.23% (200 200 0.0166777 0.0169906)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _io.open&gt;</text>
+</g></svg>
+<svg class="func_g" x="189.05562654287357" y="192" width="1.4410832774789712" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:611:rglob 0.20% (1 1 1.1400000000000001e-05 0.0005545000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">rglob</text>
+</g></svg>
+<svg class="func_g" x="189.29599290346937" y="168" width="1.1452477567457215" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:581:glob 0.18% (1 1 1.1400000000000001e-05 0.0004873)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">glob</text>
+</g></svg>
+<svg class="func_g" x="189.29599290346937" y="144" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:662:_glob_selector 0.16% (1 1 1.0500000000000001e-05 0.0004334)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_glob_selector</text>
+</g></svg>
+<svg class="func_g" x="189.30215614348464" y="120" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\glob.py:370:selector 0.15% (1 1 4.5e-06 0.00041460000000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">selector</text>
+</g></svg>
+<svg class="func_g" x="191.49670982035258" y="192" width="16.639192923720003" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 1.47% (1 1 0.0001056 0.0040068000000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="191.49670982035258" y="168" width="2.3739336769339645" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\glob.py:471:select_recursive 0.28% (201 201 5.9800000000000003e-05 0.0007664000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">select_recursive</text>
+</g></svg>
+<svg class="func_g" x="191.49670982035258" y="144" width="1.092860216615875" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\glob.py:424:select_wildcard 0.17% (201 201 0.0002529 0.0004754)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">select_wildcard</text>
+</g></svg>
+<svg class="func_g" x="194.87064349728652" y="168" width="10.133012624736825" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:207:__lt__ 0.93% (199 199 0.0001121 0.0025289)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__lt__</text>
+</g></svg>
+<svg class="func_g" x="194.87064349728652" y="144" width="9.547945054715264" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:198:_parts_normcase 0.88% (398 398 0.00020160000000000002 0.002396)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parts_normcase</text>
+</g></svg>
+<svg class="func_g" x="194.87064349728652" y="120" width="8.457932034870732" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:174:_str_normcase 0.79% (200 200 0.0021036 0.0021484)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_str_normcase</text>
+</g></svg>
+<svg class="func_g" x="206.00365612202336" y="168" width="1.6673622323255337" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.22% (200 200 5.6500000000000005e-05 0.0006059)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="206.00365612202336" y="144" width="1.4186314745661797" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.20% (91 91 9.449154879288088e-05 0.0005494)</title>
+    <rect height="100%" width="100%" fill="rgb(71, 230, 126)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="206.00365612202336" y="120" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.14% (89 89 0.00018259656025222041 0.00036812120535341825)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="209.13590274407255" y="192" width="15.26390993745412" height="23"><g>
+    <title>~:0:&lt;method '__exit__' of '_io._IOBase' objects&gt; 1.36% (200 200 0.0036944 0.0036944)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method '__exit__' of '_io._IOBase' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="225.39981268152667" y="192" width="77.44439822014435" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.TextIOWrapper' objects&gt; 6.54% (200 200 0.0166988 0.017818900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.TextIOWrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="225.39981268152667" y="168" width="3.9310322436504883" height="23"><g>
+    <title>&lt;frozen codecs&gt;:322:decode 0.41% (200 200 0.0005489000000000001 0.0011201000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">decode</text>
+</g></svg>
+<svg class="func_g" x="225.39981268152667" y="144" width="1.5146019262326207" height="23"><g>
+    <title>~:0:&lt;built-in method _codecs.utf_8_decode&gt; 0.21% (200 200 0.0005712 0.0005712)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _codecs.utf_8_decode&gt;</text>
+</g></svg>
+<svg class="func_g" x="313.2290645192178" y="216" width="680.941376581669" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 56.83% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="313.2290645192178" y="192" width="677.7990046367375" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 56.57% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="313.2290645192178" y="168" width="674.6874488918825" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 56.31% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="313.2290645192178" y="144" width="559.8865380530546" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 46.74% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="313.2290645192178" y="120" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method unicodedata.normalize&gt; 0.15% (200 200 0.0004222 0.0004222)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method unicodedata.normalize&gt;</text>
+</g></svg>
+<svg class="func_g" x="316.1152217720856" y="120" width="1" height="23"><g>
+    <title>~:0:&lt;method 'finditer' of 're.Pattern' objects&gt; 0.10% (200 200 0.00027780000000000003 0.00027780000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'finditer' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="317.3381846836882" y="120" width="87.82461510015816" height="23"><g>
+    <title>~:0:&lt;method 'group' of 're.Match' objects&gt; 7.40% (102200 102200 0.0201768 0.0201768)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'group' of 're.Match' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="406.16279978384637" y="120" width="62.61080019766392" height="23"><g>
+    <title>~:0:&lt;method 'replace' of 'str' objects&gt; 5.30% (102200 102200 0.014449400000000001 0.014449400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'replace' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="988.9165134111003" y="168" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.15% (200 200 0.000136 0.0003995)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="995.1704411008868" y="216" width="1.8452157299092136" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:618:total 0.24% (200 200 0.00015030000000000002 0.0006463)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">total</text>
+</g></svg>
+<svg class="func_g" x="995.1704411008868" y="192" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sum&gt; 0.11% (200 200 0.000312 0.000312)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sum&gt;</text>
+</g></svg>
+<svg class="func_g" x="998.015656830796" y="216" width="2.52361236301924" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:194:stem 0.29% (200 200 0.0002882 0.0008004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stem</text>
+</g></svg>
+<svg class="func_g" x="1001.5392691938154" y="216" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.12% (1 1 1.1200000000000001e-05 0.0003375)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="1001.5392691938154" y="192" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:117:__init__ 0.12% (125 125 0.00021642346938775513 0.0003263)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="1003.081840123353" y="216" width="35.533485653408" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 3.04% (51400 51400 0.008298700000000001 0.008298700000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="336" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="360" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="0.005282777155950884" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="336" width="3.377661336564633" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="360" width="3.377661336564633" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="384" width="3.377661336564633" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="408" width="3.377661336564633" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="432" width="3.377661336564633" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1.6275355954625346" y="456" width="3.377661336564633" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="336" width="1.4164303174178667" height="23"><g>
+    <title>&lt;frozen codecs&gt;:322:decode 0.20% (200 200 0.0005489000000000001 0.0011201000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">decode</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="360" width="1.4164303174178667" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.TextIOWrapper' objects&gt; 0.20% (200 200 0.0005489000000000001 0.0011201000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.TextIOWrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="384" width="1.4164303174178667" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 6.13% (200 200 0.0166988 0.017818900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="408" width="1.4164303174178667" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="432" width="1.4164303174178667" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="7.3228096010072505" y="456" width="1.4164303174178667" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="11.488279388474524" y="336" width="7.522440246837762" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="11.488279388474524" y="360" width="7.522440246837762" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="11.488279388474524" y="384" width="7.522440246837762" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="11.488279388474524" y="408" width="7.522440246837762" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="20.010719635312288" y="336" width="159.7276145069463" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="20.010719635312288" y="360" width="159.7276145069463" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="20.010719635312288" y="384" width="159.7276145069463" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="336" width="403.34200259076204" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="360" width="403.34200259076204" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="384" width="403.34200259076204" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="408" width="403.34200259076204" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="432" width="403.3420025907621" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="456" width="403.3420025907621" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="180.8334241310657" y="480" width="403.3420025907621" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="585.1754267218276" y="336" width="2.1423719449314507" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="585.1754267218276" y="360" width="2.1423719449314507" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="585.1754267218276" y="384" width="2.1423719449314507" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="585.1754267218276" y="408" width="2.1423719449314507" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="588.979466505542" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="588.979466505542" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="588.979466505542" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="588.979466505542" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="588.979466505542" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="592.7857074464048" y="336" width="1.7919477269200423" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.23% (602 602 0.0006342 0.0036948000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="360" width="1.7512185988262376" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.23% (600 600 0.0006262 0.0036409000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="384" width="1.3221197136767269" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.07% (400 400 0.0001874 0.0032789000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.09% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="432" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="456" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="480" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="552" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="592.7915258932752" y="576" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="596.266177129317" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:194:stem 0.11% (200 200 0.0002882 0.0008004)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stem</text>
+</g></svg>
+<svg class="func_g" x="596.266177129317" y="360" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.11% (200 200 0.0002882 0.0008004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="596.266177129317" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="596.266177129317" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="597.5512126725021" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:476:is_file 0.10% (201 201 0.0002807 0.0082012)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="597.5512126725021" y="360" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.10% (201 201 0.0002807 0.0082012)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="597.5512126725021" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="597.5512126725021" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="597.5512126725021" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="336" width="1.0241841135885137" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="360" width="1.0241841135885137" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="384" width="1.0241841135885137" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="408" width="1.0241841135885137" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="432" width="1.0241841135885137" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="456" width="1.0241841135885137" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="598.8331665956794" y="480" width="1.0241841135885137" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="600.857350709268" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:41:__len__ 0.11% (400 400 0.0003017 0.00034470000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__len__</text>
+</g></svg>
+<svg class="func_g" x="600.857350709268" y="360" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.11% (400 400 0.0003017 0.00034470000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="336" width="2.9229022697231937" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="360" width="2.9229022697231937" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="384" width="2.922902269723193" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="408" width="2.922902269723193" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="432" width="2.922902269723193" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="456" width="2.922902269723193" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="480" width="2.922902269723193" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="602.1855289325599" y="504" width="2.922902269723193" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="606.1084312022831" y="336" width="3.607021911418834" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:117:__init__ 0.38% (604 604 0.0010465000000000001 0.0015778)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="606.1084312022831" y="360" width="3.607021911418834" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.38% (604 604 0.0010465000000000001 0.0015778)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="606.6694224169142" y="384" width="3.046030696787711" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.45% (602 602 0.0012285 0.0024767)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="408" width="2.987006918895306" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.23% (600 600 0.0006262 0.0036409000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="432" width="2.365166028203723" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.07% (400 400 0.0001874 0.0032789000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="456" width="1.305651569216348" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.09% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="480" width="1.305651569216348" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="504" width="1.305651569216348" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="528" width="1.305651569216348" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="552" width="1.305651569216348" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="576" width="1.305651569216348" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="600" width="1.305651569216348" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="606.6778543851847" y="624" width="1.305651569216348" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="336" width="11.34805137060553" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:174:_str_normcase 1.03% (1000 1000 0.0028049000000000004 0.0029447)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_str_normcase</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="360" width="2.339135839444828" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:193:__eq__ 0.26% (800 800 0.0007013000000000001 0.0007963)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="384" width="1.2647863257620422" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.15% (200 200 0.000413 0.0011491000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="408" width="1.2647863257620422" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="432" width="1.2647863257620422" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="456" width="1.2647863257620422" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="480" width="1.2647863257620422" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="611.6720760103588" y="504" width="1.2647863257620422" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="360" width="8.008915531160703" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:198:_parts_normcase 0.77% (200 200 0.0021036 0.0021484)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parts_normcase</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="384" width="8.008915531160703" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:207:__lt__ 0.07% (398 398 0.00020160000000000002 0.002396)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__lt__</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="408" width="8.008915531160703" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sorted&gt; 0.04% (199 199 0.0001121 0.0025289)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sorted&gt;</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="432" width="8.008915531160703" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.04% (1 1 0.0001056 0.0040068000000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="456" width="8.008915531160703" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="480" width="8.008915531160703" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="615.0112118498037" y="504" width="8.008915531160703" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="336" width="2.6948623891579806" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:193:__eq__ 0.31% (400 400 0.0008393000000000001 0.0016942)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__eq__</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="360" width="1.5060597163153324" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.15% (200 200 0.000413 0.0011491000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="384" width="1.5060597163153324" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="408" width="1.5060597163153324" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="432" width="1.5060597163153329" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="456" width="1.5060597163153329" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="624.0201273809643" y="480" width="1.5060597163153329" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="629.6524482920672" y="336" width="1.2469412169977758" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:237:_format_parsed_parts 0.19% (401 401 0.0005104 0.0010735)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_format_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="360" width="1.224126443578795" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.18% (400 400 0.0005018 0.0010626000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.09% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="408" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="432" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="456" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="629.6752630654862" y="552" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.15% (400 400 0.00040270000000000003 0.0047442000000000005)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.09% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="384" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="408" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="631.8993895090649" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="336" width="4.1590721242157" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:257:_parse_path 0.43% (202 202 0.0011719 0.0020479)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="360" width="4.1590721242157" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:289:drive 0.43% (202 202 0.0011719 0.0020479)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="384" width="4.071534903472101" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 0.65% (400 400 0.0017792 0.0041482)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="408" width="4.071534903472101" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="432" width="4.071534903472101" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="456" width="4.071534903472101" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="480" width="4.071534903472101" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="504" width="4.071534903472101" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="634.7459259332632" y="528" width="4.071534903472102" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:277:_raw_path 0.11% (203 203 0.00029850000000000005 0.0003843)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_raw_path</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:289:drive 0.11% (202 202 0.0002967 0.00037640000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 0.65% (400 400 0.0017792 0.0041482)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="639.9049980574788" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="336" width="6.904355319591509" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:289:drive 0.66% (402 402 0.0017955 0.0042198)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="360" width="6.770237152644557" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 0.65% (400 400 0.0017792 0.0041482)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="384" width="6.770237152644557" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="408" width="6.770237152644557" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="432" width="6.770237152644557" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="456" width="6.770237152644557" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="480" width="6.770237152644557" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="641.2190888750216" y="504" width="6.770237152644557" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="650.3552117348089" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="653.2105527876004" y="336" width="7.5845128784201865" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="653.2105527876004" y="360" width="7.5845128784201865" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="653.2105527876004" y="384" width="7.5845128784201865" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="653.2105527876004" y="408" width="7.5845128784201865" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="653.2105527876004" y="432" width="7.5845128784201865" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="661.7950656660206" y="336" width="4.468995050698153" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:498:__init__ 0.46% (604 604 0.0012423 0.0028201000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="662.4610182564996" y="360" width="3.8030424602191815" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.45% (602 602 0.0012285 0.0024767)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="384" width="3.732975341943277" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.23% (600 600 0.0006262 0.0036409000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="408" width="2.994788109734815" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.07% (400 400 0.0001874 0.0032789000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="432" width="1.7370386473363304" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.09% (200 200 0.0002495 0.0032505000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="456" width="1.7370386473363304" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="480" width="1.7370386473363304" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="504" width="1.7370386473363304" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="528" width="1.7370386473363304" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="552" width="1.7370386473363304" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="576" width="1.7370386473363304" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="662.4710278448248" y="600" width="1.7370386473363304" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="665.208066492161" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.06% (200 200 0.0001532 0.0014937000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="665.208066492161" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="665.208066492161" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="665.208066492161" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="665.208066492161" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="667.2640607167187" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:505:__new__ 0.15% (604 604 0.0004086 0.0005987000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__new__</text>
+</g></svg>
+<svg class="func_g" x="667.3085271058948" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:130:with_segments 0.15% (602 602 0.0003957 0.0005839)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">with_segments</text>
+</g></svg>
+<svg class="func_g" x="667.3121831246482" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:252:_from_parsed_string 0.23% (600 600 0.0006262 0.0036409000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_string</text>
+</g></svg>
+<svg class="func_g" x="667.3121831246482" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:245:_from_parsed_parts 0.07% (400 400 0.0001874 0.0032789000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_from_parsed_parts</text>
+</g></svg>
+<svg class="func_g" x="670.1070752894797" y="336" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:529:open 0.14% (200 200 0.0003868 0.017434)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="670.1070752894797" y="360" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.14% (200 200 0.0003868 0.017434)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="670.1070752894797" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="670.1070752894797" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="670.1070752894797" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="336" width="1.5146019262326207" height="23"><g>
+    <title>~:0:&lt;built-in method _codecs.utf_8_decode&gt; 0.21% (200 200 0.0005712 0.0005712)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _codecs.utf_8_decode&gt;</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="360" width="1.5146019262326207" height="23"><g>
+    <title>&lt;frozen codecs&gt;:322:decode 0.21% (200 200 0.0005712 0.0005712)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">decode</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="384" width="1.5146019262326207" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.TextIOWrapper' objects&gt; 0.20% (200 200 0.0005489000000000001 0.0011201000000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.TextIOWrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="408" width="1.5146019262326207" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 6.13% (200 200 0.0166988 0.017818900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="432" width="1.5146019262326207" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="456" width="1.5146019262326207" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="674.786295155363" y="480" width="1.5146019262326207" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="336" width="113.80091083882797" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="360" width="113.80091083882797" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="384" width="113.80091083882797" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="408" width="113.80091083882796" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="432" width="113.80091083882796" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="677.3008970815955" y="456" width="113.80091083882796" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="336" width="72.42047714483505" height="23"><g>
+    <title>~:0:&lt;built-in method _io.open&gt; 6.12% (200 200 0.0166777 0.0169906)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _io.open&gt;</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="360" width="72.42047714483505" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:529:open 6.12% (200 200 0.0166777 0.0169906)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">open</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="384" width="72.42047714483505" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.14% (200 200 0.0003868 0.017434)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="408" width="72.42047714483505" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="432" width="72.42047714483505" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="792.1018079204235" y="456" width="72.42047714483505" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="866.8874427286419" y="336" width="1.8368513327456246" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.isinstance&gt; 0.24% (2454 2454 0.0006444 0.0009079)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.isinstance&gt;</text>
+</g></svg>
+<svg class="func_g" x="866.8890050435075" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 0.05% (200 200 0.000136 0.0003995)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="866.8890050435075" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="866.8890050435075" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="866.8890050435075" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="866.8890050435075" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="869.7242940613876" y="336" width="1.8460961927685386" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.24% (1245 1649 0.0006465 0.0009493)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:44:__getitem__ 0.11% (400 400 0.0003126 0.0006573000000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__getitem__</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="384" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1027:__iter__ 0.33% (200 200 0.0008911 0.0048634)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__iter__</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="408" width="1" height="23"><g>
+    <title>&lt;frozen _collections_abc&gt;:1037:__contains__ 0.14% (400 400 0.0003685 0.0052319)</title>
+    <rect height="100%" width="100%" fill="rgb(211, 211, 211)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__contains__</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.36% (200 200 0.0009944 0.007375400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="869.9814662468325" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="873.0476011239102" y="336" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.sum&gt; 0.11% (200 200 0.000312 0.000312)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.sum&gt;</text>
+</g></svg>
+<svg class="func_g" x="873.0476011239102" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:618:total 0.11% (200 200 0.000312 0.000312)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">total</text>
+</g></svg>
+<svg class="func_g" x="873.0476011239102" y="384" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.06% (200 200 0.00015030000000000002 0.0006463)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="873.0476011239102" y="408" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="873.0476011239102" y="432" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="876.9106319191993" y="336" width="30.899169393350093" height="23"><g>
+    <title>~:0:&lt;built-in method nt.stat&gt; 2.66% (202 202 0.007246000000000001 0.007476300000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method nt.stat&gt;</text>
+</g></svg>
+<svg class="func_g" x="876.9106319191993" y="360" width="30.899169393350093" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:510:stat 2.66% (202 202 0.007246000000000001 0.007476300000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">stat</text>
+</g></svg>
+<svg class="func_g" x="877.0466898271583" y="384" width="30.763111485391157" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py:476:is_file 0.09% (201 201 0.00023620000000000002 0.0076806)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">is_file</text>
+</g></svg>
+<svg class="func_g" x="877.0466898271583" y="408" width="30.763111485391157" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.10% (201 201 0.0002807 0.0082012)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="877.0466898271583" y="432" width="30.763111485391157" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="877.0466898271583" y="456" width="30.763111485391157" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="877.0466898271583" y="480" width="30.763111485391157" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="336" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method unicodedata.normalize&gt; 0.15% (200 200 0.0004222 0.0004222)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method unicodedata.normalize&gt;</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="360" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 0.15% (200 200 0.0004222 0.0004222)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="384" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="909.9944640897714" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="911.8531211858069" y="336" width="15.26390993745412" height="23"><g>
+    <title>~:0:&lt;method '__exit__' of '_io._IOBase' objects&gt; 1.36% (200 200 0.0036944 0.0036944)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method '__exit__' of '_io._IOBase' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="911.8531211858069" y="360" width="15.26390993745412" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 1.36% (200 200 0.0036944 0.0036944)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="911.8531211858069" y="384" width="15.26390993745412" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="911.8531211858069" y="408" width="15.26390993745412" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="911.8531211858069" y="432" width="15.26390993745412" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="928.1231943632763" y="336" width="36.112830214843946" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 3.09% (52053 52053 0.0084303 0.0084303)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="928.1231943632763" y="360" width="35.53348565340799" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 3.04% (51400 51400 0.008298700000000001 0.008298700000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="928.1231943632763" y="384" width="35.53348565340799" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="928.1231943632763" y="408" width="35.53348565340799" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="336" width="1" height="23"><g>
+    <title>~:0:&lt;method 'finditer' of 're.Pattern' objects&gt; 0.10% (200 200 0.00027780000000000003 0.00027780000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'finditer' of 're.Pattern' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="360" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 0.10% (200 200 0.00027780000000000003 0.00027780000000000003)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="384" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="456" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="966.342766392292" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="336" width="87.82461510015816" height="23"><g>
+    <title>~:0:&lt;method 'group' of 're.Match' objects&gt; 7.40% (102200 102200 0.0201768 0.0201768)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'group' of 're.Match' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="360" width="87.82461510015816" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 7.40% (102200 102200 0.0201768 0.0201768)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="384" width="87.82461510015816" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="408" width="87.82461510015816" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="432" width="87.82461510015816" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="456" width="87.82461510015816" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="480" width="87.82461510015816" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="967.5784960153547" y="504" width="87.82461510015816" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="1058.5404347065248" y="336" width="72.51336597649384" height="23"><g>
+    <title>~:0:&lt;method 'read' of '_io.TextIOWrapper' objects&gt; 6.13% (200 200 0.0166988 0.017818900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'read' of '_io.TextIOWrapper' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1058.5404347065248" y="360" width="72.51336597649384" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 6.13% (200 200 0.0166988 0.017818900000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="1058.5404347065248" y="384" width="72.51336597649384" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="1058.5404347065248" y="408" width="72.51336597649384" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1058.5404347065248" y="432" width="72.51336597649384" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="1132.0538006830186" y="336" width="63.1897045276702" height="23"><g>
+    <title>~:0:&lt;method 'replace' of 'str' objects&gt; 5.35% (102603 102603 0.0145809 0.0145809)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'replace' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="360" width="62.61080019766392" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\tokenize.py:21:tokenize 5.30% (102200 102200 0.014449400000000001 0.014449400000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">tokenize</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="384" width="62.61080019766392" height="23"><g>
+    <title>~:0:&lt;built-in method _collections._count_elements&gt; 33.70% (102400 102400 0.0918476 0.1274072)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method _collections._count_elements&gt;</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="408" width="62.61080019766392" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:673:update 9.57% (200 200 0.0260774 0.1534846)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">update</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="432" width="62.61080019766392" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py:599:__init__ 0.11% (200 200 0.00030730000000000004 0.1541914)</title>
+    <rect height="100%" width="100%" fill="rgb(218, 218, 218)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="456" width="62.61080019766392" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.26% (200 200 0.0007138 0.15490520000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="480" width="62.61080019766392" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1132.0551213773076" y="504" width="62.61080019766392" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+<svg class="func_g" x="1197.164469361543" y="336" width="1" height="23"><g>
+    <title>~:0:&lt;method 'split' of 'str' objects&gt; 0.15% (402 402 0.0003999 0.0003999)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'split' of 'str' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="360" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:257:_parse_path 0.13% (202 202 0.00035390000000000004 0.00035390000000000004)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_parse_path</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="384" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:289:drive 0.43% (202 202 0.0011719 0.0020479)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">drive</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="408" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:35:__init__ 0.65% (400 400 0.0017792 0.0041482)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">__init__</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="432" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:339:parents 0.17% (400 400 0.0004598 0.004824500000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">parents</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="456" width="1" height="23"><g>
+    <title>c:\Users\asus_\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py:365:relative_to 0.15% (400 400 0.0004064 0.0052309)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">relative_to</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="480" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\corpus.py:21:iter_documents 0.72% (200 200 0.0019500000000000001 0.016856)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">iter_documents</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="504" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\index.py:29:build_index 0.71% (201 201 0.0019359000000000002 0.0709719)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">build_index</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="528" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\src\findex\timing.py:15:wrapper 13.39% (1 1 0.0365098 0.2947609)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">wrapper</text>
+</g></svg>
+<svg class="func_g" x="1197.3669758191877" y="552" width="1" height="23"><g>
+    <title>C:\Users\asus_\OneDrive\Рабочий стол\Програмування на Python лаби\findex_lab01\findex\scripts\profile_lab08.py:19:index_work 0.01% (1 1 2.16e-05 0.2948042)</title>
+    <rect height="100%" width="100%" fill="rgb(204, 204, 204)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">index_work</text>
+</g></svg>
+</svg>
