@@ -1,4 +1,4 @@
-# Run from the nested findex/ project directory (docker build -t findex-web .).
+﻿# Run from the nested findex/ project directory (docker build -t findex-web .).
 FROM python:3.13-slim AS builder
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 ENV UV_LINK_MODE=copy UV_COMPILE_BYTECODE=1
@@ -18,8 +18,10 @@ ENV PATH="/app/.venv/bin:$PATH" INDEX_PATH=/app/index.bin CORPUS_PATH=/app/web_c
 WORKDIR /app
 RUN groupadd -r appuser && useradd -r -g appuser -u 10001 appuser
 COPY --from=builder --chown=appuser:appuser /app/.venv /app/.venv
+COPY --from=builder --chown=appuser:appuser /app/src /app/src
 COPY --from=builder --chown=appuser:appuser /app/index.bin /app/index.bin
 COPY --from=builder --chown=appuser:appuser /app/web_corpus /app/web_corpus
 USER appuser
 EXPOSE 8000
 CMD ["uvicorn", "findex.web:app", "--host", "0.0.0.0", "--port", "8000"]
+
