@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Findex — пошук у документах</title>
+<style>
+:root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;color:#182335;background:#f5f8fc}
+*{box-sizing:border-box}body{margin:0}header{background:#102a43;color:#fff;padding:24px 0} .wrap{max-width:900px;margin:auto;padding:0 24px}
+.brand{font-size:25px;font-weight:800;letter-spacing:-.5px}.brand span{color:#78d1bd}.sub{color:#d3e2ee;font-size:14px;margin-top:4px}
+main{margin:38px auto 80px}.searchbox{display:flex;gap:10px;background:white;padding:12px;border-radius:16px;box-shadow:0 8px 28px #17365215}
+input{border:0;font-size:17px;flex:1;outline:0;min-width:0;padding:10px}button{border:0;border-radius:10px;background:#147d6a;color:white;font-weight:700;padding:12px 24px;cursor:pointer}
+.meta{color:#617387;font-size:14px;margin:24px 0}.result{background:white;border:1px solid #e5ebf0;border-radius:14px;padding:23px;margin:15px 0;box-shadow:0 2px 14px #183b5710}
+.result a{color:#176ea8;text-decoration:none;font-size:20px;font-weight:700}.result a:hover{text-decoration:underline}.path{font-size:12px;color:#8998a7;overflow-wrap:anywhere;margin:7px 0 12px}
+.result p{line-height:1.65;color:#475b6d;margin:0}mark{background:#fbeaa6;padding:1px 2px;border-radius:3px}.score{font-size:12px;background:#e1f4ef;color:#116650;border-radius:999px;padding:5px 9px;float:right}
+.pages{display:flex;gap:8px;margin-top:24px;align-items:center;flex-wrap:wrap}.pages a{padding:10px 15px;text-decoration:none;border-radius:9px;background:white;color:#196c86;border:1px solid #dfe7ed}.notice{padding:16px;border-radius:12px;background:#fff4e6;color:#8a4c05}
+footer{color:#8b9aac;font-size:12px;margin-top:44px}
+</style></head><body><header><div class="wrap"><div class="brand">find<span>ex.</span></div><div class="sub">Шукайте серед зібраних документів — швидко та зручно</div></div></header>
+<main class="wrap"><form action="/" method="get" class="searchbox"><input name="q" autofocus maxlength="200" value="{{ q }}" placeholder="Введіть запит, наприклад python" aria-label="Пошуковий запит"><button type="submit">Знайти</button></form>
+{% if error %}<p class="notice">{{ error }}</p>{% endif %}
+{% if data %}<div class="meta">Знайдено: <strong>{{ data.total }}</strong> · Сторінка {{ data.page }} із {{ data.pages if data.pages else 1 }}</div>
+{% for hit in data.results %}<article class="result"><span class="score">{{ '%.3f'|format(hit.score) }} бала</span><a href="/document/{{ hit.doc_id }}">{{ hit.title }}</a><div class="path">{{ hit.path }}</div><p>{{ highlight(hit.snippet or hit.title, q) | safe }}</p></article>{% else %}<p class="notice">За цим запитом нічого не знайдено.</p>{% endfor %}
+{% if data.pages > 1 %}<nav class="pages">{% if data.page > 1 %}<a href="/?q={{ q|urlencode }}&page={{ data.page - 1 }}">← Назад</a>{% endif %}<span>{{ data.page }} / {{ data.pages }}</span>{% if data.page < data.pages %}<a href="/?q={{ q|urlencode }}&page={{ data.page + 1 }}">Далі →</a>{% endif %}</nav>{% endif %}{% endif %}
+<footer>Findex · Python Lab 07 · <a href="/docs">Документація API</a></footer></main></body></html>

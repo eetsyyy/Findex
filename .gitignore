@@ -1,2 +1,6 @@
 
 index.bin
+
+# Lab 07: generated local search data
+/findex/web_corpus/
+/findex/web_index.bin

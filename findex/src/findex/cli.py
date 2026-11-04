@@ -146,6 +146,17 @@ def _fail(message: str) -> NoReturn:
     raise typer.Exit(code=1)
 
 
+@app.command("serve")
+def serve(
+    port: Annotated[int, typer.Option("--port", min=1, max=65535)] = 8000,
+    workers: Annotated[int, typer.Option("--workers", min=1)] = 1,
+) -> None:
+    """Запустити вебсервер Findex."""
+    import uvicorn
+
+    uvicorn.run("findex.web:app", host="0.0.0.0", port=port, workers=workers)
+
+
 def main() -> None:
     app()
 

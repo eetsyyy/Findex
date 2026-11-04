@@ -1,0 +1,12 @@
+.venv
+.venv-nogil
+.git
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.pyright
+results/lab05
+results/lab06/crawl_1.jsonl
+results/lab06/crawl_20.jsonl
+results/lab06/*.log
