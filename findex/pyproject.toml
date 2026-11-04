@@ -1,10 +1,10 @@
 [project]
 name = "findex"
-version = "0.5.0"
-description = "Findex: typed and tested text search CLI (Python course labs 01–05)"
+version = "0.6.0"
+description = "Findex: typed and tested text search CLI (Python course labs 01–06)"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["typer>=0.12", "rich>=13"]
+dependencies = ["typer>=0.12", "rich>=13", "httpx>=0.27"]
 
 [project.scripts]
 findex = "findex.cli:main"
@@ -24,9 +24,9 @@ testpaths = ["tests"]
 markers = ["slow: tests taking more than one second"]
 
 [tool.ruff]
-extend-exclude = [".venv-nogil"]
 line-length = 100
 src = ["src", "tests", "scripts"]
+extend-exclude = [".venv-nogil"]
 
 [tool.pyright]
 typeCheckingMode = "strict"

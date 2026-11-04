@@ -1,5 +1,6 @@
 """Lazy, deterministic traversal of a directory of UTF-8 text documents."""
 
+import json
 import logging
 from collections.abc import Iterator
 from dataclasses import dataclass
@@ -24,6 +25,12 @@ def iter_documents(root: Path) -> Iterator[Document]:
     Per-document memory is proportional to the current file's size.
     """
     root = Path(root)
+    if root.is_file() and root.suffix == ".jsonl":
+        with root.open(encoding="utf-8") as source:
+            for number, line in enumerate(source):
+                entry = json.loads(line)
+                yield Document(doc_id=str(number), path=root, text=str(entry.get("text", "")))
+        return
     if not root.is_dir():
         raise NotADirectoryError(f"Corpus directory does not exist: {root}")
     # Sorting the paths makes --limit reproducible; this materializes file paths,
