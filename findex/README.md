@@ -25,6 +25,8 @@
 
 # Findex — пошукова система на Python
 
+![Демонстрація пошуку Findex](docs/search_demo.gif)
+
 Findex — навчальна пошукова система з інвертованим індексом, BM25, TF-IDF, NumPy-оптимізацією та вебінтерфейсом FastAPI.
 
 **Публічний сайт:** https://findex-nz9g.onrender.com/
