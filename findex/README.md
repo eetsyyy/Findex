@@ -1,5 +1,41 @@
 # Findex — пошукова система на Python
 
+## Current production deployment: 1000 documents
+
+**Live demo:** https://findex-nz9g.onrender.com/
+
+The current deployment indexes 1000 synthetic documents:
+200 from the Lab 6 crawler dataset and 800 generated
+educational documents.
+
+| Metric | Current result |
+|---|---:|
+| Indexed documents | 1000 |
+| Unique terms | 1300 |
+| Requests per second | 23.4338 |
+| p50 latency | 897.2 ms |
+| p95 latency | 1283.4 ms |
+| p99 latency | 1434.0 ms |
+| Successful HTTP 200 responses | 449 |
+| Pytest tests passed | 80 |
+| Maximum local NumPy speedup (2000 docs) | 8.79x |
+
+Benchmark: oha, 20 seconds, 20 concurrent clients.
+Query: `/search?q=python&k=10&engine=numpy`.
+
+Both the NumPy and legacy engines returned 800 matching
+documents. Their top-10 document IDs matched in order.
+
+The previous benchmark on 200 documents remains below
+as a historical result. Different queries and hosting
+conditions prevent a controlled performance comparison.
+
+**Corpus limitation:** This is a synthetic teaching corpus,
+not a collection of 1000 real-world articles.
+
+---
+
+
 ![Демонстрація пошуку Findex](docs/search_demo.gif)
 
 Findex — навчальна пошукова система з інвертованим індексом, BM25, TF-IDF, NumPy-оптимізацією та вебінтерфейсом FastAPI.
