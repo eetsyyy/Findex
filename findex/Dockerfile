@@ -1,4 +1,4 @@
-﻿# Run from the nested findex/ project directory (docker build -t findex-web .).
+# Run from the nested findex/ project directory (docker build -t findex-web .).
 FROM python:3.13-slim AS builder
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 ENV UV_LINK_MODE=copy UV_COMPILE_BYTECODE=1
@@ -8,9 +8,11 @@ RUN uv sync --frozen --no-dev --no-install-project
 COPY src/ src/
 COPY README.md ./
 COPY scripts/prepare_web_corpus.py scripts/prepare_web_corpus.py
+COPY scripts/expand_web_corpus.py scripts/expand_web_corpus.py
 COPY results/lab06/crawl_5.jsonl results/lab06/crawl_5.jsonl
 RUN uv sync --frozen --no-dev \
     && .venv/bin/python scripts/prepare_web_corpus.py results/lab06/crawl_5.jsonl --out /app/web_corpus \
+    && .venv/bin/python scripts/expand_web_corpus.py --out /app/web_corpus --target 1000 \
     && .venv/bin/findex index /app/web_corpus --out /app/index.bin
 
 FROM python:3.13-slim
