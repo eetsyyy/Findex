@@ -4,7 +4,7 @@
 
 **Жива демонстрація:** https://findex-nz9g.onrender.com/
 **GitHub:** https://github.com/eetsyyy/Findex
-**Відео (2–3 хв):** _потрібно записати й додати посилання перед здачею_.
+**Відеодемонстрація (2–3 хв):** [Переглянути відео на Google Drive](https://drive.google.com/file/d/15Xp32y7xOrYhCyyKAxT-Lc37dHHlKwCV/view?usp=sharing)
 
 ![Демонстрація пошуку Findex](docs/search_demo.gif)
 
